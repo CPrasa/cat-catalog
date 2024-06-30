@@ -12,8 +12,8 @@ root.render(
     <BrowserRouter>
       <Routes>
         
-        <Route path="/breedCard" element={<CatBreedCard />} />
-        <Route path="/" element={<CatBreedList/>}> </Route>
+      <Route path="/" element={<CatBreedList />} />
+      <Route path="/breedCard/:breedId" element={<CatBreedCard />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
