@@ -15,10 +15,6 @@ The Cat Catalog app consists of two main screens:
 - **Navigation**: Click on a breed to view detailed information about it.
 - **Responsive Design**: The app is designed to work seamlessly across various screen sizes.
 
-## Screenshots
-
-![Home Screen](./screenshots/home-screen.png)
-![Cat Breed Details](./screenshots/cat-breed-details.png)
 
 ## Installation
 
