@@ -28,3 +28,11 @@ The Cat Catalog app consists of two main screens:
 ```bash
 git clone https://github.com/your-username/cat-catalog-react.git
 cd cat-catalog-react
+
+```
+## Install Dependencies
+```bash
+npm install
+
+yarn install
+```
