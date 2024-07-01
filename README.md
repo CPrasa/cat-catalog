@@ -1,43 +1,34 @@
-# Cat Catalog Project
+# Cat Catalog React App
 
-This project is a catalog of cat breeds implemented using React.js, Bootstrap, and integrating with The Cat API to fetch breed information.
+This project is a cat catalog web application built using React, Bootstrap, and integrated with The Cat API to display information about different cat breeds.
 
-## Table of Contents
+## Project Overview
 
-- [Overview](#overview)
-- [Features](#features)
-- [Prerequisites](#prerequisites)
-- [Setup Instructions](#setup-instructions)
-- [Running the Project](#running-the-project)
-- [Usage](#usage)
-- [API Key Security](#api-key-security)
-- [Folder Structure](#folder-structure)
-- [Dependencies](#dependencies)
-- [Contributing](#contributing)
-- [License](#license)
+The Cat Catalog app consists of two main screens:
 
-## Overview
-
-The Cat Catalog project is a web application that allows users to browse through a list of cat breeds. Each breed includes details such as origin, lifespan, and a brief description. Users can search for breeds by name and navigate to see more details about each breed.
+- **Home Screen**: Displays a list of cat breeds.
+- **Cat Breed Details Screen**: Shows detailed information about a selected cat breed.
 
 ## Features
 
-- Display a list of cat breeds fetched from The Cat API
-- Search for cat breeds by name
-- View detailed information about each cat breed
-- Responsive design using Bootstrap for styling
+- **Search**: Use the search bar to filter cat breeds by name.
+- **Navigation**: Click on a breed to view detailed information about it.
+- **Responsive Design**: The app is designed to work seamlessly across various screen sizes.
 
-## Prerequisites
+## Screenshots
 
-Before running the project, ensure you have the following installed:
+![Home Screen](./screenshots/home-screen.png)
+![Cat Breed Details](./screenshots/cat-breed-details.png)
 
-- Node.js (v14.x or later)
-- npm (Node Package Manager) or yarn
+## Installation
 
-## Setup Instructions
+### Prerequisites
 
-1. Clone the repository:
+- Node.js installed on your local machine
+- NPM or Yarn package manager
 
-   ```bash
-   git clone https://github.com/your-username/cat-catalog.git
-   cd cat-catalog
+### Clone the Repository
+
+```bash
+git clone https://github.com/your-username/cat-catalog-react.git
+cd cat-catalog-react
