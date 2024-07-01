@@ -26,7 +26,7 @@ The Cat Catalog app consists of two main screens:
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/cat-catalog-react.git
+git clone [https://github.com/your-username/cat-catalog-react.git](https://github.com/CPrasa/cat-catalog.git)
 cd cat-catalog-react
 
 ```
@@ -34,7 +34,7 @@ cd cat-catalog-react
 ```bash
 npm install
 ```
-or
+# or
 ```bash
 yarn install
 ```
