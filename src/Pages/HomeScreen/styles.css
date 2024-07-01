@@ -1,10 +1,11 @@
+
 body {
   font-family: Arial, sans-serif;
   padding: 20px;
-  background-color: #d8d8d8; /* Light gray background color */
+  background-color: #e6e5e5; 
 }
 
-/* Container for fixed height and alignment */
+
 .fixed-height {
   display: flex;
   justify-content: center;
@@ -13,8 +14,8 @@ body {
   min-height: 70vh; 
   margin-top: 50px;
   overflow: auto; 
- 
-}
+  background-color: #ffffff; }
+
 
 .text {
   text-align: center;
@@ -34,20 +35,31 @@ body {
   width: 100%;
 }
 
+
 .table-custom {
   width: 750px;
   background-color: #ffffff; 
+  border-radius: 8px; 
+  
 }
 
+
+.table tbody tr {
+  border: 0px solid #9f9f9f; 
+  box-shadow: #9f9f9f;
+  
+}
+
+
 .table td {
-  padding: 8px; 
+  padding: 8px;
   text-align: left;
 }
 
 
 .arrow {
   cursor: pointer;
-  color: rgb(79, 107, 192);
+  color: black;
   font-size: 30px;
   user-select: none; 
 }

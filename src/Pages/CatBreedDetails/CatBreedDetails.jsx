@@ -30,8 +30,8 @@ const CatBreedDetails = () => {
   if (loading) {
     return (
       <div>
-        
-        <div className="d-flex justify-content-center align-items-center min-vh-100">
+        <h1 className="title">Cat   Breed   Details</h1>
+        <div className="d-flex justify-content-center align-items-center min-vh-90">
         <div className="spinner-border text-primary" role="status">
           <span className="visually-hidden">Loading...</span>
         </div>
@@ -44,7 +44,7 @@ const CatBreedDetails = () => {
 
   return (
     <div className="text-center">
-      <h1 className="title">Cat   Breed   Details</h1>
+      <h1 className="title">Cat Breed Details</h1>
     <div className="d-flex justify-content-center align-items-center">
       <CatBreedCard breedData={breedData} goBack={goBack} />
     </div>

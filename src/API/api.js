@@ -1,5 +1,3 @@
-// src/api.js
-
 const API_KEY = 'live_CDYkrDDIoW5dJbD0AD3g5JNl33I0xRlrOAG3lIPXWf1HCLi0aDb23N63dRqROOdT';
 
 export const fetchBreeds = async () => {

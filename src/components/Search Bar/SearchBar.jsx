@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './SearchBar.css'; // Import the CSS file
+import './SearchBar.css'; 
 
 const SearchBar = ({ filterBreeds }) => {
   const [searchTerm, setSearchTerm] = useState('');

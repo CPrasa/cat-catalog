@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
-import './CatCatalogTable.css'; // Import your CSS file for styling
-
+import './CatCatalogTable.css'; 
 const CatCatalogTable = ({ filteredBreeds, handleNavigation }) => {
   const [focusedCell, setFocusedCell] = useState(null);
 
