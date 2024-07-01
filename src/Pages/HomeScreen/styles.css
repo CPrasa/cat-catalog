@@ -1,0 +1,53 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #d8d8d8; /* Light gray background color */
+}
+
+/* Container for fixed height and alignment */
+.fixed-height {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1000px;
+  min-height: 70vh; 
+  margin-top: 50px;
+  overflow: auto; 
+ 
+}
+
+.text {
+  text-align: center;
+}
+
+
+.title {
+  padding: 20px;
+  text-align: center;
+}
+
+
+.table-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.table-custom {
+  width: 750px;
+  background-color: #ffffff; 
+}
+
+.table td {
+  padding: 8px; 
+  text-align: left;
+}
+
+
+.arrow {
+  cursor: pointer;
+  color: rgb(79, 107, 192);
+  font-size: 30px;
+  user-select: none; 
+}

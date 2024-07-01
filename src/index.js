@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import 'bootstrap/dist/css/bootstrap.min.css'; // Ensure this line is included
+import 'bootstrap/dist/css/bootstrap.min.css'; 
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import CatBreedCard from './components/CatBreedCard';
-import CatBreedList from './components/CatBreedDetail';
+import CatBreedCard from './Pages/CatBreedDetails/CatBreedDetails';
+import CatBreedList from './Pages/HomeScreen/HomeScreen';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

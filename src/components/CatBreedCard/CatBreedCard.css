@@ -1,0 +1,39 @@
+
+.custom-card {
+  width: 600px;
+  height: auto;
+  
+}
+
+.custom-header {
+  background-color: lightgray;
+  padding: 10px;
+}
+
+.custom-body {
+  background-color: lightgray;
+  
+}
+.custom-card .card-header {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+}
+
+.card-title {
+  margin: 0 auto; 
+  font-weight: bold;
+  padding-top: 7.5px;
+  padding-bottom: 7.5px;
+}
+
+.bi-arrow-left {
+  position: absolute;
+  left: 10px; 
+  cursor: pointer;
+}
+
+.card-text {
+  text-align: left;
+  
+}
