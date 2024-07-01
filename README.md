@@ -33,6 +33,17 @@ cd cat-catalog-react
 ## Install Dependencies
 ```bash
 npm install
-
+```
+or
+```bash
 yarn install
+```
+
+## Running the Application
+```bash
+npm start
+```
+# or
+```bash
+yarn start
 ```
