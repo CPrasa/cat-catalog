@@ -26,8 +26,8 @@ The Cat Catalog app consists of two main screens:
 ### Clone the Repository
 
 ```bash
-git clone [https://github.com/your-username/cat-catalog-react.git](https://github.com/CPrasa/cat-catalog.git)
-cd cat-catalog-react
+git clone https://github.com/CPrasa/cat-catalog.git
+cd cat-catalog
 
 ```
 ## Install Dependencies
